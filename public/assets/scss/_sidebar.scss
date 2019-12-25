@@ -1,0 +1,67 @@
+/*
+Sidebar layout
+*/
+.sidebar-widget{
+    margin-bottom: 10px;
+    padding:20px 0;
+    h4{
+        padding-bottom: 20px;
+        margin: 0px;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 13px;
+    }
+    form{
+        position: relative;
+        button{
+            position: absolute;
+            right: 7px;
+            top: 2px;
+            background: transparent;
+            border: 0;
+            height: 100%;
+        }
+    }  
+    .recent-post{
+        .post-content h5 a{
+            color: #657786;
+        }
+    }
+}
+.cat-list{
+    li a{
+        display: block;
+        border-bottom: 1px solid #eee;
+        padding: 5px 0;
+        position: relative;
+        &:before{
+            content: "\f3d6";
+            font-family: "Ionicons";
+            margin-right:10px;
+        }
+    }
+}
+.tag-list{
+    li {
+        margin-right: 0;
+        margin-bottom: 3px;
+        padding: 0;
+        &:first-child,&:not(:first-child){
+            margin-right: 0;
+        }
+        a{
+            color: #657786;
+            display: block;
+            line-height: 1;
+            padding: .5rem 1rem;
+            font-size: 12px;
+            border-radius: 30px;
+            border: 1px solid #f5f5f5;
+            text-decoration: none;
+           &:hover{
+               border-color: $skin-color;
+               color: $skin-color;
+           }
+    }
+    }
+}

@@ -1,0 +1,125 @@
+/*
+=================
+Drop down menu styles
+==================
+*/
+@media(min-width:992px){
+    .navbar .dropdown-menu{
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(10px);
+        -webkit-transform: translateY(10px);
+        transition: all .3s;
+        -webkit-transition: all .3s;
+        border-radius: 5px;
+        &.show{
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0px);
+            -webkit-transform: translateY(0px);
+        }
+    }
+    
+    .navbar .dropdown-submenu > .dropdown-menu {
+    transform: translateX(-10px);
+        -webkit-transform: translateX(-10px);
+}
+
+.navbar .dropdown-submenu:hover > .dropdown-menu {
+   opacity: 1;
+   visibility: visible;
+   transform: translateX(0px);
+   -webkit-transform: translateX(0px);
+}
+}
+.dropdown-menu{
+    background-color: #fff;
+    border:0px;
+    padding:.75rem;
+    @include box-shadow(0px 5px 10px rgba(#000,.05));
+    min-width: 220px;
+    margin-top:0px;
+    >li>a{
+        color:#657786;
+        padding: 7px 20px;
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 1px;
+        font-weight: 400;
+        &:hover,&:focus{
+            background-color: transparent;
+            color:$skin-color;
+        }
+    }
+}
+/******************
+
+MULTI LEVEL DROPDOWN CSS
+
+*********************/
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu > .dropdown-menu {
+    top: -.75rem;
+    left: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+
+
+.dropdown-submenu > a:after {
+    top: 11px;
+    right: 15px;
+    font-size: 11px;
+    content: "\f3d3";
+    position: absolute;
+    font-weight: normal;
+    display: inline-block;
+    font-family: "IonIcons";
+}
+.dropdown-menu.dropdown-cart{
+    min-width: 300px;
+    padding:1.25rem;
+    right: 0;
+    left: auto;
+    li{     
+        img{
+            margin-right: 15px;
+            border-radius: 10px;
+            width: 85px;
+        }
+        &:not(:first-child):not(:last-child) {
+            padding: 1rem 0;
+        }
+    }
+    p{
+        opacity:0.6;
+        font-size: .7rem;
+        margin-block-end: 0px;
+        margin-top: .35rem;
+    }
+    h4{
+        padding-top: .5rem;
+        font-size: 14px;
+        margin-bottom:0;
+        a{
+            color: #14171a;
+            &:hover{
+                color: $skin-color;
+            }
+        }
+    }
+    .close{
+        color: #657786;
+        opacity:.6;
+        transition:all 0.3s;
+        -webkit-transition:all 0.3s;
+        &:hover{
+            opacity:1;
+        }
+    }
+}

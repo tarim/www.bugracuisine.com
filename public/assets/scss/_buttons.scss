@@ -1,0 +1,56 @@
+/*
+Button style
+*/
+
+.btn{
+    @include border-radius(3px);
+    border: 0px;
+    @include transition(all 0.3s);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-family: $title-font;
+    padding: 8px 12px 8px;
+}
+.btn-rounded{
+    @include border-radius(100px);
+    padding: 12px 30px 10px;
+}
+.btn-xl{
+    padding: 16px 25px 16px;
+        font-size: 14px;
+}
+.btn-lg{
+    padding: 12px 20px 12px;
+        font-size: 12px;
+}
+.btn-dark{
+    background: #000;
+    color:#fff;
+    &:hover,&:focus,&:visited,&:active,&.active,&.focus,&:active:focus,&:not(:disabled):not(.disabled):active:focus{
+        color:#fff;
+        background-color: $skin-color;
+        box-shadow: 0px 2px 15px rgba(#333,.25);
+    }
+}
+.btn-primary{
+    background: $skin-color;
+    color: #fff;
+    &:hover,&:focus,&:visited,&:active,&.active,&.focus,&:not(:disabled):not(.disabled):active,&:not(:disabled):not(.disabled):active:focus{
+        color: #fff;
+        background: #333;
+        border-color: #333;
+        box-shadow: 0px 2px 15px rgba($skin-color,.25);
+    }
+}
+.btn-white{
+    background: #fff;
+    color: #333;
+    &:hover,&:focus,&.focus{
+        color: #fff;
+        background: #333;
+        border-color: #333;
+        box-shadow: 0px 2px 15px rgba($skin-color,.25);
+    }
+}

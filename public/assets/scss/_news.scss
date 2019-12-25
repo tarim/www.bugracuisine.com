@@ -1,0 +1,113 @@
+/*
+News & Events
+*/
+
+.recent-post{
+    li{
+        padding-bottom: 15px;
+    }
+    img{
+        float: left;
+        margin-right: 15px;
+    }
+    .post-content{
+        overflow: hidden;
+        h5{
+            font-weight:400;
+            font-family:$default-font;
+            font-size:14px;
+            line-height: 1.5;
+            a{
+                color: #fff;
+                &:hover{
+                    color:$skin-color;
+                }
+            }
+        }
+        span{
+            display: block;
+            font-style: italic;
+            font-size: 11px;
+        }
+    }
+}
+
+/**blog post**/
+.post{
+    padding-bottom: 50px;
+}
+.post-meta{
+    padding-top:2rem;
+    padding-bottom: 1rem;
+    h3{ 
+        text-transform: capitalize;
+        font-weight: 600;
+        font-size: 18px;
+        margin-bottom: 15px;
+        a{
+            color:#14171a;
+            &:hover{
+                color: $skin-color;
+            }
+        }
+    }
+    ul{
+        margin-bottom:0px;
+        li {
+            padding: 0px .5rem;
+            a{
+                color: #999;
+                font-weight: 400;
+                font-size:13px;
+                i{
+                    margin-right: 5px;
+                }
+                &:hover{
+                    color: $skin-color;
+                }
+            }
+        }
+    }
+}
+.masonry-item .post{
+    padding-bottom: 0px;
+    overflow: hidden;
+    margin-bottom:30px;
+    .post-meta,.post-content{
+        padding: 15px 0;
+    }
+    .post-content{
+        padding-top: 0px;
+    }
+}
+
+/**comments**/
+.comment-list{
+    h5{
+        margin-bottom: 5px;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+    .thumb{
+        float: left;
+        margin-right: 20px;
+        
+    }
+    .overflow-hidden{
+        >a{
+            font-size: 12px;
+        }
+    }
+    li{
+        padding: 20px 15px;
+        border-bottom: 1px solid #eee;
+        p{
+            margin-bottom: 0px;
+        }   
+        &:last-child{
+            border-bottom: 0px;
+        }
+    }
+}
