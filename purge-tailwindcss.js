@@ -1,4 +1,4 @@
-onst Purgecss = require('purgecss');
+const Purgecss = require('purgecss');
 const fs = require('fs');
 const path = require('path');
 
