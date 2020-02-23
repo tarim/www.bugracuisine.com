@@ -33,12 +33,9 @@ export default class Footer extends Component {
                     <div className="col-sm-12 text-center">
                         <ul className="list-inline f-social">
                             <li className="list-inline-item"><a href="#"><i className="ion-social-facebook"></i></a></li>
-                            <li className="list-inline-item"><a href="#"><i className="ion-social-twitter"></i></a></li>
-                            <li className="list-inline-item"><a href="#"><i className="ion-social-linkedin"></i></a></li>
-                            <li className="list-inline-item"><a href="#"><i className="ion-social-googleplus"></i></a></li>
                             <li className="list-inline-item"><a href="#"><i className="ion-social-instagram"></i></a></li>
                         </ul>
-                        <span>&copy; Copyright 2020. bugracuisine.com designed & developed by Tarim lab.</span>
+                        <span>&copy; Copyright 2020. bugracuisine.com designed & developed by <a href="https://www.koznek.com">Tarim lab.</a></span>
                     </div>
                 </div>
             </div>
