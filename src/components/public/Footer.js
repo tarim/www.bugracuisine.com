@@ -35,7 +35,7 @@ export default class Footer extends Component {
                             <li className="list-inline-item"><a href="#"><i className="ion-social-facebook"></i></a></li>
                             <li className="list-inline-item"><a href="#"><i className="ion-social-instagram"></i></a></li>
                         </ul>
-                        <span>&copy; Copyright 2020. bugracuisine.com designed & developed by <a href="https://www.koznek.com">Tarim lab.</a></span>
+                        <span>&copy; Copyright 2022. bugracuisine.com designed & developed by <a href="https://www.karluks.com">Tarim lab.</a></span>
                     </div>
                 </div>
             </div>

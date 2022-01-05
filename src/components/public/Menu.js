@@ -12,8 +12,8 @@ export default class Menu extends Component {
                             <span className="ion-ios-plus-empty"></span>
                         </div>
                         <div className="menu-grid-desc">                               
-                            <span className="price float-right">$25.99(small)</span>
-                            <span className="price float-right">$35.99,</span>
+                            <span className="price float-right">$29.99(small)</span>
+                            <span className="price float-right">$39.99,</span>
                             <h4>Spicy Chicken</h4>
                             <p>
                             Braised chicken with dryed chili pepper, garlic and onion (2-4 servings)
@@ -28,8 +28,8 @@ export default class Menu extends Component {
                             <span className="ion-ios-plus-empty"></span>
                         </div>
                         <div className="menu-grid-desc">                               
-                            <span className="price float-right">$9.99(small)</span>
-                            <span className="price float-right">$12.99,</span>
+                            <span className="price float-right">$12.99(small)</span>
+                            <span className="price float-right">$15.99,</span>
                             <h4>Bugra Noodle Soup</h4>
                             <p>
                             Hand pulled noodle served with spicy soup, vegetabeles and toufu at the top.
@@ -38,29 +38,16 @@ export default class Menu extends Component {
                     </a>
                 </div>
                 <div className=" start lunch col-md-4 margin-b-30 menu-item">
-                    <a className="menu-grid gallery-box" href="/assets/images/image3.jpg" data-lightbox="gallery">
-                        <img src="/assets/images/image3.jpg" alt="" className="img-fluid"/>
+                    <a className="menu-grid gallery-box" href="/assets/images/image4.jpg" data-lightbox="gallery">
+                        <img src="/assets/images/image4.jpg" alt="" className="img-fluid"/>
                         <div className="gallery-overlay">
                             <span className="ion-ios-plus-empty"></span>
                         </div>
                         <div className="menu-grid-desc">                               
-                            <span className="price float-right">$12.99</span>
+                            <span className="price float-right">$15.99</span>
                             <h4>Lagman</h4>
                             <p>
                             Hand-pulled noodle served with stir-fried Lamb or Tofu and vegetables.
-                            </p>
-                        </div>                           
-                    </a>
-                </div>
-                <div className=" breakfast lunch col-md-4 margin-b-30 menu-item">
-                    <a className="menu-grid gallery-box" href="/assets/images/image4.jpg" data-lightbox="gallery">
-                        <img src="/assets/images/image4.jpg" alt="" className="img-fluid"/> <div className="gallery-overlay"> 
-                                                    <span className="ion-ios-plus-empty"></span>                         </div>
-                        <div className="menu-grid-desc">                               
-                            <span className="price float-right">$9.50</span>
-                            <h4>Menu title</h4>
-                            <p>
-                                Mauris malesuada fames Aliquam erat ac ipsum dipiscing Nulla amet elt wisi bulum Integer luctus et.
                             </p>
                         </div>                           
                     </a>
@@ -70,7 +57,7 @@ export default class Menu extends Component {
                         <img src="/assets/images/image5.jpg" alt="" className="img-fluid"/> <div className="gallery-overlay">  
                                                    <span className="ion-ios-plus-empty"></span>                         </div>
                         <div className="menu-grid-desc">                               
-                            <span className="price float-right">$35.99,$25.99(small)</span>
+                            <span className="price float-right">$39.99,$29.99(small)</span>
                             <h4>Big Plate Chicken Stew</h4>
                             <p>
                             Braised chicken with potato, green pepper, and traditional Uyghur seasoning (2-4 servings)
@@ -83,7 +70,7 @@ export default class Menu extends Component {
                         <img src="/assets/images/image6.jpg" alt="" className="img-fluid"/> <div className="gallery-overlay"> 
                                                     <span className="ion-ios-plus-empty"></span>                         </div>
                         <div className="menu-grid-desc">                               
-                            <span className="price float-right">$14.99</span>
+                            <span className="price float-right">$18.99</span>
                             <h4>Special Lagman</h4>
                             <p>
                             Hand pulled noodle served with finely cutted beef and mixed stir fried vegetables.
@@ -97,7 +84,7 @@ export default class Menu extends Component {
                         <img src="/assets/images/image9.jpg" alt="" className="img-fluid"/> <div className="gallery-overlay">  
                                                    <span className="ion-ios-plus-empty"></span>                         </div>
                         <div className="menu-grid-desc">                               
-                            <span className="price float-right">$12.99</span>
+                            <span className="price float-right">$15.99</span>
                             <h4>Spicy Fried Noodle</h4>
                             <p>
                             Hand-pulled noodle fried with beef and vegetables.
@@ -110,7 +97,7 @@ export default class Menu extends Component {
                         <img src="/assets/images/image10.jpg" alt="" className="img-fluid"/> <div className="gallery-overlay"> 
                                                     <span className="ion-ios-plus-empty"></span>                         </div>
                         <div className="menu-grid-desc">                               
-                            <span className="price float-right">$7.99</span>
+                            <span className="price float-right">$11.99</span>
                             <h4>Cold Bean Curd</h4>
                             <p>
                             Cold green bean jelly noodle served
@@ -124,7 +111,7 @@ with a sweet, tangy savory sauce.
                         <img src="/assets/images/image11.jpg" alt="" className="img-fluid"/> <div className="gallery-overlay">  
                                                    <span className="ion-ios-plus-empty"></span>                         </div>
                         <div className="menu-grid-desc">                               
-                            <span className="price float-right">$9.99</span>
+                            <span className="price float-right">$12.99</span>
                             <h4>Cold Skin Noodle</h4>
                             <p>
                             Springy noodles seasoned with a
@@ -138,7 +125,7 @@ tangy, spicy, savoury sauce.
                         <img src="/assets/images/image21.jpg" alt="" className="img-fluid"/> <div className="gallery-overlay">  
                                                    <span className="ion-ios-plus-empty"></span>                         </div>
                         <div className="menu-grid-desc">                               
-                            <span className="price float-right">$12.00 $3.00(each)</span>
+                            <span className="price float-right">$16.99</span>
                             <h4>Samsa</h4>
                             <p>
                             Oven baked flaky pastries stuffed with savory fillings with beef and onion. (4 buns)
@@ -151,7 +138,7 @@ tangy, spicy, savoury sauce.
                         <img src="/assets/images/image8.jpg" alt="" className="img-fluid"/> <div className="gallery-overlay">   
                                                   <span className="ion-ios-plus-empty"></span>                         </div>
                         <div className="menu-grid-desc">                               
-                            <span className="price float-right">$12.99</span>
+                            <span className="price float-right">$15.99</span>
                             <h4>Pearl Noodle</h4>
                             <p>
                             A hearty fried noodle dish that cut
@@ -181,7 +168,7 @@ beef and vegetables
                         <img src="/assets/images/image16.jpg" alt="" className="img-fluid"/> <div className="gallery-overlay">  
                                                    <span className="ion-ios-plus-empty"></span>                         </div>
                         <div className="menu-grid-desc">                               
-                            <span className="price float-right">$3.00</span>
+                            <span className="price float-right">$4.00</span>
                             <h4>Nan</h4>
                             <p>
                                 
@@ -194,7 +181,7 @@ beef and vegetables
                         <img src="/assets/images/image17.jpg" alt="" className="img-fluid"/> <div className="gallery-overlay">  
                                                    <span className="ion-ios-plus-empty"></span>                         </div>
                         <div className="menu-grid-desc">                               
-                            <span className="price float-right">$9.00 $3.00(each)</span>
+                            <span className="price float-right">$12.00 $4.00(each)</span>
                             <h4>Kawap</h4>
                             <p>
                             Marinated beef / lamb / chicken kebabs made
@@ -209,7 +196,7 @@ with a family recipe ( 3 skewers)
                         <img src="/assets/images/image19.jpg" alt="" className="img-fluid"/> <div className="gallery-overlay">   
                                                   <span className="ion-ios-plus-empty"></span>                         </div>
                         <div className="menu-grid-desc">                               
-                            <span className="price float-right">$35.99(kg),$399.99(whole)</span>
+                            <span className="price float-right">$450.00(whole)</span>
                             <h4>Whole Lamb Kawap</h4>
                             <p>
                                 Special Order
@@ -222,7 +209,7 @@ with a family recipe ( 3 skewers)
                         <img src="/assets/images/image20.jpg" alt="" className="img-fluid"/> <div className="gallery-overlay">  
                                                    <span className="ion-ios-plus-empty"></span>                         </div>
                         <div className="menu-grid-desc">                               
-                            <span className="price float-right">$12.99, $34.99(large)</span>
+                            <span className="price float-right">$15.99, $39.99(large)</span>
                             <h4>Pilav Small</h4>
                             <p>
                             Cooked in a thick cast iron wok-shaped cauldron. The rice is steamed as it covers a bottom
