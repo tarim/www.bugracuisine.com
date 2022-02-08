@@ -15,6 +15,7 @@
 # [START cloudbuild_yarn_node]
 steps:
 # Install dependencies
+runtime: nodejs16
 - name: node
   entrypoint: yarn
   args: ['install']
@@ -26,6 +27,8 @@ steps:
 - name: node
   entrypoint: yarn
   args: ['run', 'build']
+- name: "gcr.io/cloud-builders/gcloud"
+  args: ["app", "deploy"]  
 timeout: "3600s"
 options:
  logging: CLOUD_LOGGING_ONLY
