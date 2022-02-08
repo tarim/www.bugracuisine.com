@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "tailwind && NODE_PATH=src react-scripts start",
-    "build": "tailwind && node ./purge-tailwindcss.js && NODE_PATH=src GENERATE_SOURCEMAP=false react-scripts build",
+    "build": "tailwind && node ./purge-tailwindcss.js && NODE_PATH=src GENERATE_SOURCEMAP=false react-scripts --openssl-legacy-provider build",
     "start-o": "PORT=9090 react-scripts start",
     "build-o": "react-scripts build",
     "test": "react-scripts test",
