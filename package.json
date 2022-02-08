@@ -10,12 +10,11 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-https-redirect": "^1.1.0",
-    "react-scripts": "^3.4.1",
-    "tailwindcss": "^1.1.4"
+    "react-scripts": "^3.4.1"
   },
   "scripts": {
-    "start": "yarn run tailwind && NODE_PATH=src react-scripts start",
-    "build": "yarn run tailwind && node ./purge-tailwindcss.js && NODE_PATH=src GENERATE_SOURCEMAP=false react-scripts build",
+    "start": "tailwind && NODE_PATH=src react-scripts start",
+    "build": "tailwind && node ./purge-tailwindcss.js && NODE_PATH=src GENERATE_SOURCEMAP=false react-scripts build",
     "start-o": "PORT=9090 react-scripts start",
     "build-o": "react-scripts build",
     "test": "react-scripts test",
@@ -35,5 +34,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^1.9.6"
   }
 }
