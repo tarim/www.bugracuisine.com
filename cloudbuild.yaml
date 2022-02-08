@@ -17,12 +17,12 @@ steps:
 # Install dependencies
 #runtime: nodejs16
 - name: node
-  entrypoint: yarn
+  entrypoint: npm
   args: ['install']
 # Run custom commands
 - name: node
-  entrypoint: yarn
-  args: ['run', 'export NODE_OPTIONS=--openssl-legacy-provider && next build']
+  entrypoint: npm
+  args: ['run', 'node export NODE_OPTIONS=--openssl-legacy-provider && next build']
 - name: "gcr.io/cloud-builders/gcloud"
   args: ["app", "deploy"]  
 timeout: "3600s"
