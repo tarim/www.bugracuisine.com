@@ -19,6 +19,8 @@ steps:
 - name: node
   entrypoint: yarn
   args: ['install']
+- name: node
+  args: ['export' 'NODE_OPTIONS=--openssl-legacy-provider']
 # Run tests
 #- name: node
 #  entrypoint: yarn
