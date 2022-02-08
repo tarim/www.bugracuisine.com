@@ -15,7 +15,7 @@
 # [START cloudbuild_yarn_node]
 steps:
 # Install dependencies
-runtime: nodejs16
+#runtime: nodejs16
 - name: node
   entrypoint: yarn
   args: ['install']
