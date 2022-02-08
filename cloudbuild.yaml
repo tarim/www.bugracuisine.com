@@ -22,7 +22,7 @@ steps:
 # Run custom commands
 - name: node
   entrypoint: npm
-  args: ['run', 'node export NODE_OPTIONS=--openssl-legacy-provider && next build']
+  args: ['run', 'build']
 - name: "gcr.io/cloud-builders/gcloud"
   args: ["app", "deploy"]  
 timeout: "3600s"
