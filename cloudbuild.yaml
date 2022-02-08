@@ -22,7 +22,7 @@ steps:
 # Run custom commands
 - name: node
   entrypoint: yarn
-  args: ['run', 'export set NODE_OPTIONS=--openssl-legacy-provider && next build']
+  args: ['run', 'export NODE_OPTIONS=--openssl-legacy-provider && next build']
 - name: "gcr.io/cloud-builders/gcloud"
   args: ["app", "deploy"]  
 timeout: "3600s"
